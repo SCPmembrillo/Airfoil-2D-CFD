@@ -9,5 +9,5 @@ The domain is subdivided into internal, intermediate, and external regions.
 The simulations are performed under standard sea-level conditions, i.e., ρ = 1.225 kg/m^3 and μ = 1.789 × 10^-5 Pa·s. The airfoil chord length is 1 m.
 
 <div align="center">
-  <img src="cf.svg" alt="Wall Shear Stress" width="200"/>
+  <img src="images/cf.svg" alt="images/cf.svg" width="150"/>
 </div>
