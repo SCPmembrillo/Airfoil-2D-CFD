@@ -7,8 +7,19 @@ The geometry of the NACA 2412 airfoil is imported from Airfoil Tools, where a re
 The domain is subdivided into internal, intermediate, and external regions.
 ## Mesh
 ###  Y-Plus Wall Distance Estimation
-y+ is a dimensionless number that represents the distance of the first mesh cell from the wall, normalized by the flow’s viscosity and shear stress.
+`y+` is a dimensionless parameter that quantifies the distance of the first mesh cell from the wall, normalized by the flow's viscosity and friction velocity.
 
+<div align="center">
+  <img src="images/y+.svg" alt="images/y+.svg" width="150"/>
+</div>
+
+The following steps are used to calculate the wall distance:
+
+- Determine the friction velocity, \(u_\tau\), as:  
+- Determine the wall shear stress, \(\tau_w\), as:  
+- Approximate the friction coefficient, \(C_f\), using the flat-plate correlation for turbulent flow:
 <div align="center">
   <img src="images/cf.svg" alt="images/cf.svg" width="150"/>
 </div>
+
+### Inflation Layers
