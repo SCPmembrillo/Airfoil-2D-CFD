@@ -3,6 +3,9 @@ The geometry of the NACA 2412 airfoil is imported from Airfoil Tools, where a re
 <div align="center">
   <img src="images/domain" alt="images/domain" width="700"/>
 </div>
+<div align="center">
+  <img src="images/NACA_2412.svg" alt="images/NACA_2412.svg" width="700"/>
+</div>
 
 The domain is subdivided into internal, intermediate, and external regions.
 ## Mesh
