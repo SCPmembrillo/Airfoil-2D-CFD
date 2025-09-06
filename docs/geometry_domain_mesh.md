@@ -58,3 +58,36 @@ The simulations are performed under standard sea-level conditions, i.e., `ρ` = 
 | 1,500,000       | 27               | 0.00002885                |
 
 </div>
+<div align="center">
+  <img src="images/inflation_1" alt="images/inflation_1" width="700"/>
+</div>
+<div align="center">
+  <img src="images/inflation_2" alt="images/inflation_2" width="700"/>
+</div>
+
+<div align="center">
+  
+**Table 2. Mesh quality for Re = 500,000**
+
+| Angle of Attack | Aspect Ratio (Max) | Skewness (Max / Avg)     | Orthogonal Quality (Min) |
+|-----------------|--------------------|--------------------------|---------------------------|
+| 0°              | 5.475              | 0.90347 (0.070089)       | 0.3312                    |
+| 10°             | 10.102             | 0.97883 (0.068314)       | 0.19469                   |
+| 15°             | 6.5408             | 0.93664 (0.068965)       | 0.28537                   |
+
+**Table 3. Mesh quality for Re = 1,000,000**
+
+| Angle of Attack | Aspect Ratio (Max) | Skewness (Max / Avg)     | Orthogonal Quality (Min) |
+|-----------------|--------------------|--------------------------|---------------------------|
+| 0°              | 24.314             | 0.92078 (0.068657)       | 0.30484                   |
+| 10°             | 19.200             | 0.96760 (0.068364)       | 0.21422                   |
+| 15°             | 19.118             | 0.94843 (0.068434)       | 0.25967                   |
+
+**Table 4. Mesh quality for Re = 1,500,000**
+
+| Angle of Attack | Aspect Ratio (Max) | Skewness (Max / Avg)     | Orthogonal Quality (Min) |
+|-----------------|--------------------|--------------------------|---------------------------|
+| 0°              | 24.024             | 0.98533 (0.077146)       | 0.17152                   |
+| 10°             | 20.525             | 0.97187 (0.077209)       | 0.18401                   |
+| 15°             | 20.379             | 0.98431 (0.077565)       | 0.16664                   |
+</div>
