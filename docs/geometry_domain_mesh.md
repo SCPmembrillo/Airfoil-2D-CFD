@@ -36,4 +36,20 @@ Inflation layers are a commonly used technique to capture the boundary layer acc
 The following steps are used to calculate the number of inflation layers:
 
 - Determine the boundary layer thickness, `sigma`, as:
+<div align="center">
+  <img src="images/sigma_99.svg" alt="images/sigma_99.svg" width="200"/>
+</div>
+
 - Determine number of layers, `N`, as:
+<div align="center">
+  <img src="images/N.svg" alt="images/N.svg" width="250"/>
+</div>
+
+The simulations are performed under standard sea-level conditions, i.e., `ρ` = 1.225 kg/m^3 and `μ`= 1.789 × 10^-5 Pa·s. The airfoil chord length is 1 m and the growth rate `G` is 1.2
+
+**Table 1. Inflation layer calculations**  
+| Reynolds Number | Number of Layers | First Layer Thickness (m) |
+|-----------------|------------------|---------------------------|
+| 500,000         | 18               | 0.00020844                |
+| 1,000,000       | 24               | 0.00005986                |
+| 1,500,000       | 27               | 0.00002885                |
