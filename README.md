@@ -3,8 +3,8 @@ This project focuses on the aerodynamic analysis of a **NACA 2412 airfoil** at a
 The simulations are performed under the following flow conditions:  
 
 - Reynolds number: 5×10^5  
-- Reynolds number: 1×10^6  
-- Reynolds number: 1.5×10^6  
+- Reynolds number: 10×10^5
+- Reynolds number: 15×10^5  
 - Target y+ = 1  
 
 The purpose is to evaluate and compare **lift, drag, and aerodynamic efficiency** under varying operating conditions.  
