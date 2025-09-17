@@ -9,6 +9,11 @@ The simulations are performed under the following flow conditions:
 
 The purpose is to evaluate and compare **lift, drag, and aerodynamic efficiency** under varying operating conditions.  
 
+<div align="center">
+  <img src="docs/images/re_5_0.png" alt="docs/images/re_5_0.png" width="800"/>
+  
+</div>
+
 ## Objectives
 - Develop geometries and meshes for airfoils at different angles of attack.  
 - Conduct CFD simulations using **Ansys Fluent**.  
